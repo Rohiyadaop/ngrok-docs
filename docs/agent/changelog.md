@@ -6,6 +6,10 @@ title: Changelog
 
 ## v3
 
+### ngrok Agent 3.10.1 - \[2024-06-06\]
+
+- Requests to TLS endpoints using `proto: tls` and `terminate_at: agent` succeed after the agent session goes through a reconnection.
+
 ### ngrok Agent 3.10.0 - \[2024-05-23\]
 
 - **ACTION MAY BE REQUIRED**: The domain used for Certificate Revocation List (CRL) checks is now `crl.ngrok-agent.com` to align it with the domain used for session connections. This may require changes to your firewall or proxy settings to allow this outbound connection.
